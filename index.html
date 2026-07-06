@@ -1,94 +1,231 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abakar Djiddi YOUSSOUF | Portfolio</title>
-
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Youssouf Abakar Djiddi — Actuaire &amp; Data Science</title>
+<meta name="description" content="Portfolio de Youssouf Abakar Djiddi, actuaire et candidat au DU IA Finance &amp; Actuariat — expérience, projets et mémoire.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
+<div class="ledger-rule top"></div>
 
-<h1>Abakar Djiddi YOUSSOUF</h1>
-
-<p>Actuariat • Data • Intelligence Artificielle</p>
-
-<nav>
-
-<a href="#apropos">À propos</a>
-
-<a href="#projets">Projets</a>
-
-<a href="#memoire">Mémoires</a>
-
-<a href="#contact">Contact</a>
-
-</nav>
-
+<header class="site-header">
+  <div class="wrap header-inner">
+    <span class="mark">Y.A.D.</span>
+    <nav class="nav" id="nav">
+      <a href="#profil">Profil</a>
+      <a href="#experience">Expérience</a>
+      <a href="#projets">Projets &amp; mémoire</a>
+      <a href="#formation">Formation</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
 </header>
 
-<section id="apropos">
+<main>
 
-<h2>À propos</h2>
+  <!-- HERO -->
+  <section class="hero wrap">
+    <div class="hero-text">
+      <p class="eyebrow">Portfolio — dossier de candidature</p>
+      <h1>Youssouf<br>Abakar&nbsp;Djiddi</h1>
+      <p class="hero-title">Actuaire &amp; Data Science appliquées à la Finance et à l'Actuariat</p>
+      <p class="hero-desc">Consultant actuaire chez Aon. Candidat au <strong>DU IA : Finance &amp; Actuariat</strong> — Sorbonne Université. Ce site rassemble mon expérience, mes projets techniques et mon mémoire d'actuariat, en appui de mon dossier.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="assets/docs/CV_Abakar_Djiddi_Youssouf.pdf" target="_blank" rel="noopener">Télécharger le CV (PDF)</a>
+        <a class="btn btn-ghost" href="#projets">Voir les projets ↓</a>
+      </div>
+    </div>
+    <div class="hero-curve" aria-hidden="true">
+      <svg viewBox="0 0 420 260" fill="none">
+        <line x1="0" y1="230" x2="420" y2="230" class="axis"/>
+        <line x1="30" y1="0" x2="30" y2="230" class="axis"/>
+        <path id="curve" d="M30,210 C90,205 120,140 160,120 C210,95 240,60 300,45 C340,35 380,25 400,10"
+              stroke="currentColor" stroke-width="2.5" fill="none"/>
+        <circle cx="400" cy="10" r="4" fill="currentColor"/>
+      </svg>
+      <span class="curve-caption">Trajectoire actuarielle → data &amp; IA</span>
+    </div>
+  </section>
 
-<p>
-Bienvenue sur mon portfolio.
-Vous trouverez ici mes projets scolaires et extra scolaires, mes mémoires,
-mes travaux et mon CV.
-</p>
+  <div class="ledger-rule"></div>
 
-</section>
+  <!-- PROFIL -->
+  <section id="profil" class="section wrap">
+    <p class="section-tag">§01 — Profil</p>
+    <div class="section-grid">
+      <div>
+        <h2>Actuaire associé, orienté data &amp; IA</h2>
+      </div>
+      <div class="section-body">
+        <p>Actuaire associé à l'Institut des Actuaires (novembre 2025), je pratique le conseil en actuariat et en avantages sociaux pour de grands groupes internationaux. Je souhaite aujourd'hui approfondir le Machine Learning et l'IA appliqués à la tarification, au provisionnement et à la gestion des risques — dans la continuité directe de ma pratique actuarielle actuelle.</p>
+        <ul class="tag-list">
+          <li>Python</li><li>R</li><li>SQL</li><li>SAS</li><li>Solvabilité II</li><li>IFRS 17</li><li>ALM</li><li>Machine Learning</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-<section id="projets">
+  <div class="ledger-rule"></div>
 
-<h2>Mes projets</h2>
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section wrap">
+    <p class="section-tag">§02 — Expérience professionnelle</p>
 
-<div class="card">
+    <div class="entry">
+      <div class="entry-date">10/2025 — présent</div>
+      <div class="entry-body">
+        <h3>Consultant actuaire <span class="entry-org">— Aon, Paris (CDI)</span></h3>
+        <p>Conseil en actuariat et avantages sociaux pour grands groupes internationaux : engagements sociaux, reporting financier (IFRS, US GAAP, French GAAP), gestion actif-passif (ALM). Valorisation de plans d'actionnariat salarié (IFRS 2) ; conseil RH et gouvernance des risques retraite, France et international.</p>
+      </div>
+    </div>
 
-<h3>Projet 1</h3>
+    <div class="entry">
+      <div class="entry-date">06/2024 — 09/2025</div>
+      <div class="entry-body">
+        <h3>Assistant actuaire <span class="entry-org">— Aprecialis, Paris (Alternance &amp; Stage)</span></h3>
+        <p>Conseil en assurance de personnes (épargne, retraite, prévoyance, santé), Solvabilité II, assurance IARD. Mémoire d'actuariat sur l'introduction d'une part obligatoire de retraite par capitalisation en France.</p>
+      </div>
+    </div>
 
-<p>Description du projet.</p>
+    <div class="entry">
+      <div class="entry-date">07/2023 — 08/2023</div>
+      <div class="entry-body">
+        <h3>Chargé de recouvrement et contentieux <span class="entry-org">— AXA France, Châteauroux (stage)</span></h3>
+        <p>Gestion de dossiers de procédures collectives ; coordination avec mandataires judiciaires et partenaires de recouvrement.</p>
+      </div>
+    </div>
 
-</div>
+    <div class="entry">
+      <div class="entry-date">12/2021 — 07/2022</div>
+      <div class="entry-body">
+        <h3>Accompagnateur bénévole <span class="entry-org">— AFEV, Strasbourg</span></h3>
+        <p>Soutien scolaire personnalisé auprès d'un jeune suivi.</p>
+      </div>
+    </div>
+  </section>
 
-<div class="card">
+  <div class="ledger-rule"></div>
 
-<h3>Projet 2</h3>
+  <!-- PROJETS -->
+  <section id="projets" class="section wrap">
+    <p class="section-tag">§03 — Projets &amp; mémoire</p>
+    <h2 class="section-heading-solo">Travaux techniques, en appui du dossier</h2>
 
-<p>Description du projet.</p>
+    <div class="cards">
 
-</div>
+      <article class="card card-featured">
+        <p class="card-kicker">Mémoire d'actuariat</p>
+        <h3>Introduction d'une part obligatoire de retraite par capitalisation en France</h3>
+        <p>Vers un système mixte — modèles de durée, séries temporelles, ALM, optimisation.</p>
+        <a class="card-link" href="assets/docs/memoire-retraite-capitalisation.pdf" target="_blank" rel="noopener">Lire le mémoire (PDF) →</a>
+      </article>
 
-</section>
+      <article class="card">
+        <p class="card-kicker">RMarkdown</p>
+        <h3>Méthodes de régression</h3>
+        <p>Modélisation de la fréquence de sinistres par GLM, comparée à des arbres de régression, sur un portefeuille auto.</p>
+        <a class="card-link" href="assets/docs/glm-frequence-sinistres.pdf" target="_blank" rel="noopener">Voir le rapport (PDF) →</a>
+      </article>
 
-<section id="memoire">
+      <article class="card">
+        <p class="card-kicker">SAS</p>
+        <h3>Assurance emprunteur</h3>
+        <p>Analyse tarifaire et proposition d'une nouvelle tarification pour un portefeuille d'assurance emprunteur.</p>
+        <a class="card-link" href="assets/docs/tarification-emprunteur.pdf" target="_blank" rel="noopener">Voir le rapport (PDF) →</a>
+      </article>
 
-<h2>Mémoirse</h2>
+      <article class="card">
+        <p class="card-kicker">RMarkdown</p>
+        <h3>Théorie des risques</h3>
+        <p>Construction d'un modèle collectif sur quatre portefeuilles d'assurance.</p>
+        <a class="card-link" href="assets/docs/theorie-des-risques.pdf" target="_blank" rel="noopener">Voir le rapport (PDF) →</a>
+      </article>
 
-<p>Bientôt disponible.</p>
+      <article class="card">
+        <p class="card-kicker">R, Excel, VBA</p>
+        <h3>Assurance vie</h3>
+        <p>Construction d'une table de mortalité, tarification d'un produit mixte, comparaison PER vs. assurance vie épargne.</p>
+        <a class="card-link" href="assets/docs/assurance-vie.pdf" target="_blank" rel="noopener">Voir le rapport (PDF) →</a>
+      </article>
 
-</section>
+      <article class="card">
+        <p class="card-kicker">RMarkdown</p>
+        <h3>Modélisation statistique appliquée</h3>
+        <p>Loi de l'âge des véhicules d'un portefeuille et impact sur la sinistralité dans le temps.</p>
+        <a class="card-link" href="assets/docs/modelisation-vehicules.pdf" target="_blank" rel="noopener">Voir le rapport (PDF) →</a>
+      </article>
 
-<section id="contact">
+    </div>
+    <p class="card-note">Les fichiers marqués (PDF) seront actifs dès que tu auras déposé les documents correspondants dans <code>assets/docs/</code> — voir le mode d'emploi fourni à part.</p>
+  </section>
 
-<h2>Contact</h2>
+  <div class="ledger-rule"></div>
 
-<p>Email : abakardjiddiyoussouf@gmail.com</p>
+  <!-- FORMATION -->
+  <section id="formation" class="section wrap">
+    <p class="section-tag">§04 — Formation</p>
+    <div class="entry">
+      <div class="entry-date">2023 — 2025</div>
+      <div class="entry-body">
+        <h3>Master en Actuariat <span class="entry-org">— Université de Strasbourg, Mention Bien</span></h3>
+        <p>Solvabilité II, IFRS 17, modélisation actuarielle, ALM, science des données, calcul stochastique.</p>
+      </div>
+    </div>
+    <div class="entry">
+      <div class="entry-date">2023 — 2025</div>
+      <div class="entry-body">
+        <h3>DU « Mathématiques et Applications : Recherche et Interactions » <span class="entry-org">— IRMIA++, Mention Bien</span></h3>
+        <p>Programme sélectif en mathématiques appliquées ; projet sur simulations de particules en interaction (Python, KeOps).</p>
+      </div>
+    </div>
+    <div class="entry">
+      <div class="entry-date">2022 — 2023</div>
+      <div class="entry-body">
+        <h3>Licence Mathématiques, parcours Actuariat <span class="entry-org">— Université de Strasbourg, Mention Bien</span></h3>
+      </div>
+    </div>
+    <div class="entry">
+      <div class="entry-date">2021 — 2022</div>
+      <div class="entry-body">
+        <h3>DEUG Mathématiques et Informatique <span class="entry-org">— Université de Strasbourg, Mention Très Bien</span></h3>
+      </div>
+    </div>
+  </section>
 
-</section>
+  <div class="ledger-rule"></div>
 
-<footer>
+  <!-- CONTACT -->
+  <section id="contact" class="section wrap contact-section">
+    <p class="section-tag">§05 — Contact</p>
+    <div class="contact-grid">
+      <div>
+        <h2>Échangeons.</h2>
+        <p>Disponible pour toute question sur mon dossier de candidature ou mon parcours.</p>
+      </div>
+      <ul class="contact-list">
+        <li><span>Email</span><a href="mailto:abakardjiddiyoussouf@gmail.com">abakardjiddiyoussouf@gmail.com</a></li>
+        <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/abakar-djiddi-youssouf-986680202" target="_blank" rel="noopener">abakar-djiddi-youssouf</a></li>
+        <li><span>GitHub</span><a href="https://github.com/adyoussouf" target="_blank" rel="noopener">@adyoussouf</a></li>
+      </ul>
+    </div>
+  </section>
 
-© 2026 Adyoussouf
+</main>
 
+<footer class="site-footer wrap">
+  <span>© <span id="year"></span> Youssouf Abakar Djiddi</span>
+  <a href="assets/docs/CV_Abakar_Djiddi_Youssouf.pdf" target="_blank" rel="noopener">CV (PDF)</a>
 </footer>
 
 <script src="script.js"></script>
-
 </body>
-
-</html>
+</html>    
